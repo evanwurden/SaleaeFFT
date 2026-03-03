@@ -1,0 +1,19 @@
+{
+  "name": "Saleae FFT Plugin",
+  "apiVersion": "1.0.0",
+  "author": "Evan Wurden",
+  "version": "1.0.0",
+  "description": "FFT analysis plugin that displays the fundamental frequency and launches an interactive FFT plot viewer.",
+  "extensions": {
+    "Saleae FFT Plugin": {
+      "type": "AnalogMeasurement",
+      "entryPoint": "AnalogMeasurement.MyAnalogMeasurer",
+      "metrics": {
+        "fundamentalFrequency": {
+          "name": "Fundamental Frequency",
+          "notation": "Hz"
+        }
+      }
+    }
+  }
+}
